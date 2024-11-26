@@ -3,10 +3,6 @@ class Msgdrop < Formula
   homepage "https://cli-tools.dev/posts/msgdrop/"
   version "1.0.0"
 
-  on_linux do
-    odie "This formula is not available for Linux."
-  end
-
   on_macos do
     if Hardware::CPU.arm?
       url "https://dl.cli-tools.dev/msgdrop/msgdrop-macos-arm64.zip"
@@ -24,6 +20,10 @@ class Msgdrop < Formula
         bin.install "msgdrop"
       end
     end
+  end
+
+  on_linux do
+    raise "This formula is not supported on Linux."
   end
 
   def caveats
