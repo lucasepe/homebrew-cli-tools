@@ -22,10 +22,6 @@ class Msgdrop < Formula
     end
   end
 
-  on_linux do
-    raise "This formula is not supported on Linux."
-  end
-
   def caveats
     <<~EOS
       If you find this tool helpful and want to upgrade to the full
