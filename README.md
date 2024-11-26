@@ -1,4 +1,4 @@
-# Lucasepe Cli-tools
+# Cli-tools
 
 ## How do I install these formulae?
 
