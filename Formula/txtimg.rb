@@ -9,7 +9,7 @@ class Txtimg < Formula
       sha256 "229fd7b95f7aa2ef69c0c1d80cabf1b6b443a118edd31b7abaf5f306d58fc3f2"
 
       def install
-        bin.install "msgdrop"
+        bin.install "txtimg"
       end
     end
     if Hardware::CPU.intel?
