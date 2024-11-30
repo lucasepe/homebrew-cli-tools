@@ -1,12 +1,12 @@
 class Msgdrop < Formula
   desc "Delivery WhatsApp text messages, images or documents to a list of contacts"
   homepage "https://cli-tools.dev/posts/msgdrop/"
-  version "1.0.0"
+  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://dl.cli-tools.dev/msgdrop/msgdrop-macos-arm64.zip"
-      sha256 "d5e3060250549b0af92358bd04473f95935ae7cd0859489b53e945d7ddc7fe5d"
+      sha256 "7df96badb3f018fffd27a56e93182cd45abcd155acc1b966e37f96e30e0a6383"
 
       def install
         bin.install "msgdrop"
@@ -14,7 +14,7 @@ class Msgdrop < Formula
     end
     if Hardware::CPU.intel?
       url "https://dl.cli-tools.dev/msgdrop/msgdrop-macos-x86_64.zip"
-      sha256 "850becc64e0c9cb99f5fdb4c1eefc22681008ff71a77ca0a6775d269a4bd2129"
+      sha256 "42d983497a7f5683a1162f0cee5c48f29aa3af5f5c72c50fdfec2113444226c2"
 
       def install
         bin.install "msgdrop"
@@ -32,5 +32,5 @@ class Msgdrop < Formula
         * https://www.paypal.com/donate/?hosted_button_id=FV575PVWGXZBY
     EOS
   end
-  
+
 end
