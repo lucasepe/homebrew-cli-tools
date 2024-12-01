@@ -5,7 +5,7 @@ class Msgdrop < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://dl.cli-tools.dev/msgdrop/msgdrop-macos-arm64.zip"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.1.0/msgdrop-macos-arm64.zip"
       sha256 "7df96badb3f018fffd27a56e93182cd45abcd155acc1b966e37f96e30e0a6383"
 
       def install
@@ -13,7 +13,7 @@ class Msgdrop < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://dl.cli-tools.dev/msgdrop/msgdrop-macos-x86_64.zip"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.1.0/msgdrop-macos-x86_64.zip"
       sha256 "42d983497a7f5683a1162f0cee5c48f29aa3af5f5c72c50fdfec2113444226c2"
 
       def install
