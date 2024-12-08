@@ -1,4 +1,4 @@
-class Txtimg < Formula
+class Jviz < Formula
   desc "Generates GraphViz DOT script to render JSON data graphically"
   homepage "https://cli-tools.dev/posts/jviz/"
   version "0.1.0"
