@@ -1,12 +1,12 @@
 class Jviz < Formula
   desc "Generates GraphViz DOT script to render JSON data graphically"
   homepage "https://cli-tools.dev/posts/jviz/"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.0/jviz-macos-arm64.zip"
-      sha256 "1e5d71402bf52006b303be10dc5d6f09d16449875f72ae64568205ce215e6e4f"
+      sha256 "3155e7f7fd60c34aec230d3d5f22b4f0576ee2d29685fcb44ec8329529e7032f"
 
       def install
         bin.install "jviz"
@@ -14,7 +14,7 @@ class Jviz < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.0/jviz-macos-x86_64.zip"
-      sha256 "db6b4cf0a993c62cb2a80684175cb387fdcc3017a59d372a0c7aff822fc11ee2"
+      sha256 "5b3a2b43a8dfa69c073098d564f455e4df75988ddd221271d064470d80e7b701"
 
       def install
         bin.install "jviz"
