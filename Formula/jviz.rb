@@ -5,7 +5,7 @@ class Jviz < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.0/jviz-macos-arm64.zip"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.1/jviz-macos-arm64.zip"
       sha256 "3155e7f7fd60c34aec230d3d5f22b4f0576ee2d29685fcb44ec8329529e7032f"
 
       def install
@@ -13,7 +13,7 @@ class Jviz < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.0/jviz-macos-x86_64.zip"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.1/jviz-macos-x86_64.zip"
       sha256 "5b3a2b43a8dfa69c073098d564f455e4df75988ddd221271d064470d80e7b701"
 
       def install
