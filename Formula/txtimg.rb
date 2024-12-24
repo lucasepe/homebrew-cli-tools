@@ -1,20 +1,20 @@
 class Txtimg < Formula
   desc "Effortlessly transform any text into high-quality PNG images"
   homepage "https://cli-tools.dev/posts/txtimg/"
-  version "0.1.0"
+  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/cli-tools/releases/download/v0.1.0/txtimg-macos-arm64.zip"
-      sha256 "576242ba8b0e16c89a0700ea2c9429c19314f2fd958b424e837e761f6650a3a0"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.3/txtimg-macos-arm64.zip"
+      sha256 "3ae0430bf9184651ac98d606ad83cb744f25afecc28b2d6921d66d7a23223412"
 
       def install
         bin.install "txtimg"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lucasepe/cli-tools/releases/download/v0.1.0/txtimg-macos-x86_64.zip"
-      sha256 "63646eb7609da504d457da1f1525af0dbc38f1e7e590c3f5007c01d7d1663fe8"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.3/txtimg-macos-x86_64.zip"
+      sha256 "796fe45414600e4975416ddbc99d430ddab6b90abd2ba9f8b6914c8514259694"
 
       def install
         bin.install "txtimg"
