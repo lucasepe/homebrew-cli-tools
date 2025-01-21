@@ -1,20 +1,20 @@
 class Dazed < Formula
   desc "Effortlessly combine images into your own defined layout"
   homepage "https://cli-tools.dev/posts/dazed/"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.7/dazed-macos-arm64.zip"
-      sha256 "4a532294987d460c49dc0c519bafa54d57d0a5551ba4d2599c3de759187941bf"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.8/dazed-macos-arm64.zip"
+      sha256 "bb707c14f6a36a883d46e5046e029043bb0f86aabeaadc6f81d3714d3e3319fb"
 
       def install
         bin.install "dazed"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.7/dazed-macos-x86_64.zip"
-      sha256 "57cf0a1904497ce5cbae723cdf3c9a5057a7a5ad8018178503566bcde1f46e52"
+      url "https://github.com/lucasepe/cli-tools/releases/download/v0.2.8/dazed-macos-x86_64.zip"
+      sha256 "1d05585af6e77af3cf7d1010f6b35c48c30d7c9c817641c0bcdbf8269e465167"
 
       def install
         bin.install "dazed"
