@@ -1,20 +1,20 @@
 class Drop < Formula
   desc "Lightweight and secure HTTP server for hosting static files from a specified directory"
   homepage "https://cli-tools.dev/posts/drop/"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/drop/releases/download/v0.2.0/drop-macos-arm64.zip"
-      sha256 "bd2be0d766c03578c2ed71ed626b3a342eae9106ab4954056bd26de8fe18579b"
+      url "https://github.com/lucasepe/drop/releases/download/v0.3.0/drop-macos-arm64.zip"
+      sha256 "43a04bc1996bd47353f42d00729546bcb75ceb0c0587429a948af2856663addb"
 
       def install
         bin.install "drop"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lucasepe/drop/releases/download/v0.2.0/drop-macos-x86_64.zip"
-      sha256 "80790fb3afc066cd8ee508203eeead881c1973f6d3cd1761567f521f3756666b"
+      url "https://github.com/lucasepe/drop/releases/download/v0.3.0/drop-macos-x86_64.zip"
+      sha256 "cd6ac802de28089cb85221f8f184ab29b39a64154638c032443b7764b8de5ac6"
 
       def install
         bin.install "drop"
