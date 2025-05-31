@@ -1,4 +1,4 @@
-class CirQL < Formula
+class Cirql < Formula
   desc "A simple, privacy-first command-line tool for managing contacts locally."
   homepage "https://github.com/lucasepe/cirql/"
   version "1.0.0"
