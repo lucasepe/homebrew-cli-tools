@@ -21,3 +21,4 @@ $ brew install <formula>
 | [msgdrop](https://cli-tools.dev/posts/msgdrop/) | Delivery WhatsApp text messages, images or docs to a list of contacts  |
 | [jviz](https://cli-tools.dev/posts/jviz/)       | Generates GraphViz DOT script to render JSON data graphically          |
 | [drop](https://cli-tools.dev/posts/drop/)       | Lightweight and secure HTTP server for hosting static files from a specified directory          |
+| [cirql](https://github.com/lucasepe/cirql/)     | A simple, privacy-first command-line tool for managing contacts locally          |
