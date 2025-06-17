@@ -1,12 +1,12 @@
 class Checkit < Formula
   desc "Render your checklists into clean printable PDF documents."
   homepage "https://github.com/lucasepe/checkit/"
-  version "1.2.0"
+  version "1.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/checkit/releases/download/v1.2.0/checkit-darwin.zip"
-      sha256 "e3470f27511c5cf6568beaed7806e287d592475ff1d5ff18438b4de1b3bfb9de"
+      url "https://github.com/lucasepe/checkit/releases/download/v1.3.0/checkit-darwin.zip"
+      sha256 "cb2b7014c4ba3c892c8a67150335a47fd80e3416fa1a66ae59eef052cd6e52d2"
 
       def install
         bin.install "checkit"
