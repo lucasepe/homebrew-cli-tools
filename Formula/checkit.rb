@@ -6,7 +6,7 @@ class Checkit < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lucasepe/checkit/releases/download/v1.3.0/checkit-darwin.zip"
-      sha256 "cb2b7014c4ba3c892c8a67150335a47fd80e3416fa1a66ae59eef052cd6e52d2"
+      sha256 "db731a2676acbb6bf2d0889c12765b7c00c8406e500f56ed21cc711d3c346e6f"
 
       def install
         bin.install "checkit"
