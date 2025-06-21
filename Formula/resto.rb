@@ -5,7 +5,7 @@ class Resto < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/checkit/releases/download/v0.1.0/resto-darwin.zip"
+      url "https://github.com/lucasepe/resto/releases/download/v0.1.0/resto-darwin.zip"
       sha256 "786675330f4e3c3f73f1b932135a66740d7ce965d0f80a212b61633e0368d9cc"
 
       def install
