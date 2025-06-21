@@ -1,7 +1,7 @@
 class Resto < Formula
   desc "Minimalist CLI REST client that calls APIs, waits for conditions, and retries intelligently."
   homepage "https://github.com/lucasepe/resto/"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
