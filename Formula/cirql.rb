@@ -1,12 +1,12 @@
 class Cirql < Formula
   desc "A simple, privacy-first command-line tool for managing contacts locally."
   homepage "https://github.com/lucasepe/cirql/"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/cirql/releases/download/v1.0.0/cirql-darwin.zip"
-      sha256 "9cc73fe04aef98eac010ef5875ca5dc197fe49fee408db17f17eae9cc874443f"
+      url "https://github.com/lucasepe/cirql/releases/download/v1.0.1/cirql-darwin.zip"
+      sha256 "a81b3091eb5f50fafbf5c5196f52d4b5e3dbd5589d0c12dc8c595274671e0243"
 
       def install
         bin.install "cirql"
