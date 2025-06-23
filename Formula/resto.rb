@@ -1,12 +1,12 @@
 class Resto < Formula
   desc "Minimalist CLI REST client that calls APIs, waits for conditions, and retries intelligently."
   homepage "https://github.com/lucasepe/resto/"
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lucasepe/resto/releases/download/v0.1.0/resto-darwin.zip"
-      sha256 "786675330f4e3c3f73f1b932135a66740d7ce965d0f80a212b61633e0368d9cc"
+      url "https://github.com/lucasepe/resto/releases/download/v0.2.0/resto-darwin.zip"
+      sha256 "a03455fa51b7ef157937e5ddfda38f1f58513cc7972cf1bd59f49cb81f541f30"
 
       def install
         bin.install "resto"
