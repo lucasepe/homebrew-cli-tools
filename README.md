@@ -24,3 +24,4 @@ $ brew install <formula>
 | [checkit](https://github.com/lucasepe/checkit/)     | Render your checklists into clean printable PDF documents – straight from the terminal     |
 | [resto](https://github.com/lucasepe/resto/)     | Minimalist CLI REST client that calls APIs, waits for conditions, and retries intelligently     |
 | [formctl](https://github.com/lucasepe/formctl/) | Convert, fill, and sign forms and documents right from your terminal     |
+| [snipr](https://github.com/lucasepe/snipr/) | Turn your Markdown into a runnable script    |
